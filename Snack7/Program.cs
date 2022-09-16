@@ -10,6 +10,7 @@ for (int i = 0; i < array.Length; i++)
         array[i] = numero;
     }
 }
+Console.WriteLine("Array risultante:");
 for (int i = 0; i < array.Length; i++) {
     Console.WriteLine(array[i]);
 }
