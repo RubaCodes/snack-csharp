@@ -11,8 +11,8 @@ for (int i = 0; i < N; i++)
         array[j] =  rdm.Next(100); 
     }
     Console.WriteLine($"{i + 1}-esimo array generato");
-    foreach (int obj in array) {
-        
-        Console.WriteLine(obj.ToString());
+    for(int j= 0; j < array.Length; j++) {
+
+        Console.WriteLine(array[j]);
     }
 }
