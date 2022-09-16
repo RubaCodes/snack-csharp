@@ -6,7 +6,7 @@ for (int i = 0; i < 10; i++)
     sum += Convert.ToDouble(Console.ReadLine());
 }
 
-Console.WriteLine("La somma vale: " + sum);
+Console.WriteLine("La somma con for vale: " + sum);
 
 //con ciclo while
 int j = 0;
@@ -16,4 +16,4 @@ while (j < 10) {
     sum += Convert.ToDouble(Console.ReadLine());
     j++;
 }
-Console.WriteLine("La somma vale: " + sum);
+Console.WriteLine("La somma con while vale: " + sum);
